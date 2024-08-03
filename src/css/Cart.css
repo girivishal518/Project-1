@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cart{
+    height: auto;
+    width: 800px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    border: 2px solid dodgerblue;
+}
+.cart img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.icon{
+    width: 70px;
+    display: flex;
+    align-items: end;
+    /* padding-top: 10px; */
+    justify-content: space-between;
+    color: #fff;
+}
